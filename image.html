@@ -3,25 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Positioning</title>
+    <title>Social Media Links</title>
     <style>
-        body{
-            zoom: 50%;
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            text-align: center;
+            padding: 20px;
+        }
+        header {
+            background-color: #282c34;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin: 0;
+        }
+
+        h2 {
+            font-size: 18px;
+            color: #ccc;
+            margin-top: 5px;
+        }
+        .contact-info {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            margin-top: 50px;
+            border-radius: 8px;
+        }
+
+        footer p {
+            margin: 0;
         }
     </style>
 </head>
 <body>
-    <img src="solarsystem.avif" usemap="#image-map" height="2313px" width="3072px">
+
+<header>
+    <h1>Interactive Social Media Links</h1>
+    <h2>Click on the icons below to visit your favorite platforms!</h2>
+</header>
+
+<div class="image-container">
+    <img src="social-media-icons.png" usemap="#image-map" height="500" width="750">
+</div>
+
 <map name="image-map">
-    <area target="_blank" alt="mercury" title="mercury" href="https://en.wikipedia.org/wiki/Mercury_(planet)" coords="614,1068,546,1016" shape="rect">
-    <area target="_blank" alt="venus" title="venus" href="https://en.wikipedia.org/wiki/Venus" coords="741,901,847,1004" shape="rect">
-    <area target="_blank" alt="earth" title="earth" href="https://en.wikipedia.org/wiki/Earth" coords="958,773,1075,887" shape="rect">
-    <area target="_blank" alt="mars" title="mars" href="https://en.wikipedia.org/wiki/Mars" coords="1126,642,1210,726" shape="rect">
-    <area target="_blank" alt="jupiter" title="jupiter" href="https://en.wikipedia.org/wiki/Jupiter" coords="1414,618,1679,862" shape="rect">
-    <area target="_blank" alt="saturn" title="saturn" href="https://en.wikipedia.org/wiki/Saturn" coords="1701,452,2181,675" shape="rect">
-    <area target="_blank" alt="uranus" title="uranus" href="https://en.wikipedia.org/wiki/Uranus" coords="2170,330,2317,465" shape="rect">
-    <area target="_blank" alt="neptune" title="neptune" href="https://en.wikipedia.org/wiki/Neptune" coords="2422,182,2561,325" shape="rect">
-    <area target="_blank" alt="sun" title="sun" href="https://en.wikipedia.org/wiki/Sun" coords="1,3,-2,1756,405,1355,516,843,318,211" shape="poly">
+    <area target="_blank" alt="Facebook" title="Visit Facebook" href="https://www.facebook.com/" coords="1,94,132,55,201,196,51,240" shape="poly">
+    <area target="_blank" alt="Instagram" title="Visit Instagram" href="https://www.instagram.com/" coords="201,43,333,9,414,135,268,176" shape="poly">
+    <area target="_blank" alt="Twitter" title="Visit Twitter" href="https://x.com/" coords="402,0,559,0,606,84,466,126" shape="poly">
+    <area target="_blank" alt="WhatsApp" title="Visit WhatsApp" href="https://www.whatsapp.com/" coords="79,265,217,226,291,363,296,374,138,414,98,320" shape="poly">
+    <area target="_blank" alt="Gmail" title="Visit Gmail" href="https://mail.google.com/" coords="290,210,424,168,509,307,354,352" shape="poly">
+    <area target="_blank" alt="YouTube" title="Visit YouTube" href="https://www.youtube.com/" coords="494,159,639,120,712,250,575,290,545,245" shape="poly">
+    <area target="_blank" alt="Telegram" title="Visit Telegram" href="https://web.telegram.org/" coords="153,449,311,401,374,500,180,499" shape="poly">
+    <area target="_blank" alt="TikTok" title="Visit TikTok" href="https://www.tiktok.com/" coords="396,387,518,351,594,500,457,498" shape="poly">
+    <area target="_blank" alt="Snapchat" title="Visit Snapchat" href="https://www.snapchat.com/" coords="592,330,747,299,744,461,674,466" shape="poly">
 </map>
+
+<div class="contact-info">
+    <p>For any inquiries, feel free to contact us!</p>
+</div>
+
+<footer>
+    <p>© 2025 Mathi. All Rights Reserved.</p>
+</footer>
+
 </body>
 </html>
